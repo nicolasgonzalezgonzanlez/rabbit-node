@@ -4,7 +4,7 @@ const router = require('./router/index')
 const rabbit = require('./connect/')
  // config express
 const app = express();
-rabbit.connect()
+rabbit.test()
 // config
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
